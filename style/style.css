@@ -129,6 +129,7 @@ nav ul li:hover {
       #skills {
         background-color: #eaebed; /* Couleur de fond */
         padding: 80px 0; /* Espacement intérieur */
+        
       }
     
       /* Style pour chaque compétence */
@@ -138,6 +139,7 @@ nav ul li:hover {
         opacity: 0; 
         transform: translateY(20px); 
         transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+      
       }
 
       .skill.active {
@@ -151,11 +153,23 @@ nav ul li:hover {
         margin-bottom: 30px; 
       }
     
-      .skill i {
+      .skill i, span {
         font-size: 50px;
         margin-bottom: 20px;
-        color: #007bff; /* Couleur de l'icône */
+        color: #0077b5;
       }
+
+      .html-icon { color: #e44d26 !important; } /* Couleur pour HTML */
+    .css-icon { color: #2965f1 !important; } /* Couleur pour CSS */
+    .js-icon { color: #f0db4f !important; } /* Couleur pour JavaScript */
+    .bootstrap-icon { color: #563d7c !important; } 
+    .nodejs-icon { color: #68a063 !important; } 
+    .firebase-icon { color: #ffcb2b !important; } 
+    .figma-icon { color: #0ac9f5 !important; } 
+    .flutter-icon { color: #02569b !important; } 
+    .github-icon { color: #211F1F !important; } 
+    .flutter-icon { color: #02569b !important; } /* Couleur pour Flutter */
+    .flutter-bird { font-family: 'Font Awesome 5 Brands' !important; content: "\f7b9" !important; } /* Icône d'oiseau pour Flutter */
     
       .skill h3 {
         font-size: 1.5em;
@@ -206,3 +220,93 @@ nav ul li:hover {
       .technology p {
         font-size: 1em;
       }
+
+      #portfolio {
+        background-color: #f8f9fa; /* Couleur de fond */
+        padding: 80px 0; /* Espacement intérieur */
+      }
+
+      #portfolio h2 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 30px; 
+      }
+    
+      .portfolio-item {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 20px; /* Ajout de rembourrage pour l'espace interne de la carte */
+        border-radius: 10px; /* Coins arrondis pour la carte */
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Ombre pour donner l'impression de relief */
+      }
+    
+      .portfolio-img {
+        width: 100%;
+        height: 200px; 
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        position: relative; 
+        overflow: hidden; 
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .portfolio-item:hover .portfolio-img {
+        transform: scale(1.1); /* Échelle augmentée au survol */
+      }
+    
+      .portfolio-item h3 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+      }
+    
+      .portfolio-item p {
+        font-size: 1em;
+      }
+    
+      .portfolio-item a {
+        text-decoration: none;
+      }
+
+      .portfolio-item:hover {
+        background-color: #fff; /* Fond blanc au survol */
+      }
+
+
+  .technologies-used {
+    color: #6c757d; /* Couleur du texte des technologies utilisées */
+    font-size: 0.8em;
+    margin-top: 8px;
+  }
+  .portfolio-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%; 
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #007bff); 
+    transition: all 0.3s ease-in-out;
+    opacity: 0; 
+  }
+
+  .portfolio-item:hover::before {
+    height: 10%; 
+    opacity: 1;
+  }
+
+  .portfolio-item:hover {
+    background-color: #fff; /* Fond blanc au survol */
+  }
+
+  .iii {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+
+  .portfolio-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
