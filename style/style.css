@@ -296,7 +296,7 @@ nav ul li:hover {
   }
 
   .portfolio-item:hover {
-    background-color: #fff; /* Fond blanc au survol */
+    background-color: #fff; 
   }
 
   .iii {
@@ -309,4 +309,43 @@ nav ul li:hover {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+  }
+
+  footer {
+    background-color: #fff; 
+    color: black; 
+    padding: 20px 0;
+  }
+  
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .footer-nav a:hover {
+    color: red;
+  }
+  
+ 
+  .footer-nav i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+
+  footer p {
+    margin: 0;
+    font-size: 14px;
   }

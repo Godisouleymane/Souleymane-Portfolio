@@ -57,3 +57,7 @@ var options = {
 
   // Activation initiale des compétences lors du chargement de la page
   document.addEventListener('DOMContentLoaded', activateVisibleSkills);
+
+  document.addEventListener("DOMContentLoaded", function() {
+    AOS.init();
+  });
