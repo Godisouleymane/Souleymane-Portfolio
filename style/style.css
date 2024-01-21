@@ -1,0 +1,208 @@
+body {
+    background-color: #2b2f4b !important;
+    
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    position: relative;
+    z-index: 2;
+  
+
+}
+
+nav {
+    font-weight: bold;
+}
+
+nav ul li {
+    transition: all 0.3s ease;
+}
+
+nav ul li:hover {
+    box-shadow: 0 7px black;
+}
+
+  .col-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 3rem !important; 
+    font-weight: bold !important;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu' !important; 
+  }
+    /* Style pour la section À propos */
+    #about {
+        background-color: #f8f9fa; 
+        padding: 80px 0;
+      }
+  
+      
+      #about h2 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 30px; 
+      }
+  
+      
+      #profile-img {
+        width: 100%;
+        height: 100%; 
+        border-radius: 20px;
+        margin-bottom: 20px; 
+        transition: all 0.3s;
+      }
+
+      #profile-img:hover {
+        transform: scale(1.04);
+      }
+  
+      /* Style pour la disposition de la section À propos */
+      .about-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      /* Style pour la description de la section À propos */
+      .about-description {
+        max-width: 600px; 
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+      }
+    
+      .social-icon {
+        display: inline-block;
+        font-size: 30px;
+        margin-right: 10px;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        transition: border-color 0.3s ease-in-out;
+      }
+    
+      .github-icon {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #24292e; /* Couleur GitHub */
+      }
+    
+      .twitter-icon {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1da1f2; /* Couleur Twitter */
+      }
+    
+      .linkedin-icon {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #0077b5; /* Couleur LinkedIn */
+      }
+    
+      /* Animation au survol des icônes */
+      .social-icon:hover {
+        border-color: #3498db; /* Couleur de la bordure au survol */
+      }
+
+      #skills {
+        background-color: #eaebed; /* Couleur de fond */
+        padding: 80px 0; /* Espacement intérieur */
+      }
+    
+      /* Style pour chaque compétence */
+      .skill {
+        text-align: center;
+        margin-bottom: 30px;
+        opacity: 0; 
+        transform: translateY(20px); 
+        transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+      }
+
+      .skill.active {
+        opacity: 1; 
+        transform: translateY(0); 
+      }
+
+      #skills h2 {
+        font-size: 2.5em;
+        font-weight: bold;
+        margin-bottom: 30px; 
+      }
+    
+      .skill i {
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: #007bff; /* Couleur de l'icône */
+      }
+    
+      .skill h3 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+      }
+    
+      .skill p {
+        font-size: 1em;
+      }
+
+      .technology i {
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #007bff; /* Couleur de l'icône */
+      }
+    
+      .technology p {
+        font-size: 1em;
+      }
+
+      .technology {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 20px; 
+        border-radius: 10px; 
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s ease-in-out; 
+        opacity: 0; 
+        transform: translateY(20px);
+        transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;
+      }
+
+      .technology.active {
+        opacity: 1; /* Lorsqu'une carte est active, elle devient opaque */
+        transform: translateY(0); /* Lorsqu'une carte est active, elle revient à sa position normale */
+      }
+    
+      .technology:hover {
+        transform: scale(1.05); /* Agrandissement au survol */
+      }
+    
+      .technology i {
+        font-size: 50px;
+        margin-bottom: 10px;
+        color: #007bff; /* Couleur de l'icône */
+      }
+    
+      .technology p {
+        font-size: 1em;
+      }
