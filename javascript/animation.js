@@ -1,5 +1,5 @@
 var options = {
-    strings: ["DESIGNER UI/UX", "DEVELOPPEUR FLUTTER", "DEVELOPPEUR WEB"],
+    strings: ["DESIGNER UI/UX", "DEV FLUTTER", "DEV WEB"],
     typeSpeed: 100,
     backSpeed: 50,
     showCursor: false,
