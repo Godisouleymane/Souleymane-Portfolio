@@ -40,7 +40,7 @@ nav ul li:hover {
     margin-bottom: 20px;
     font-family: 'Ubuntu' !important; 
   }
-    /* Style pour la section À propos */
+ 
     #about {
         background-color: #f8f9fa; 
         padding: 80px 0;
@@ -66,7 +66,7 @@ nav ul li:hover {
         transform: scale(1.04);
       }
   
-      /* Style pour la disposition de la section À propos */
+      
       .about-content {
         display: flex;
         flex-direction: row;
@@ -74,7 +74,7 @@ nav ul li:hover {
         align-items: center;
       }
   
-      /* Style pour la description de la section À propos */
+      
       .about-description {
         max-width: 600px; 
       }
@@ -100,7 +100,7 @@ nav ul li:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #24292e; /* Couleur GitHub */
+        color: #24292e; 
       }
     
       .twitter-icon {
@@ -109,7 +109,7 @@ nav ul li:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #1da1f2; /* Couleur Twitter */
+        color: #1da1f2; 
       }
     
       .linkedin-icon {
@@ -118,21 +118,21 @@ nav ul li:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #0077b5; /* Couleur LinkedIn */
+        color: #0077b5; 
       }
     
-      /* Animation au survol des icônes */
+ 
       .social-icon:hover {
-        border-color: #3498db; /* Couleur de la bordure au survol */
+        border-color: #3498db; 
       }
 
       #skills {
-        background-color: #eaebed; /* Couleur de fond */
-        padding: 80px 0; /* Espacement intérieur */
+        background-color: #eaebed; 
+        padding: 80px 0; 
         
       }
     
-      /* Style pour chaque compétence */
+     
       .skill {
         text-align: center;
         margin-bottom: 30px;
@@ -159,17 +159,17 @@ nav ul li:hover {
         color: #0077b5;
       }
 
-      .html-icon { color: #e44d26 !important; } /* Couleur pour HTML */
-    .css-icon { color: #2965f1 !important; } /* Couleur pour CSS */
-    .js-icon { color: #f0db4f !important; } /* Couleur pour JavaScript */
+      .html-icon { color: #e44d26 !important; }
+    .css-icon { color: #2965f1 !important; } 
+    .js-icon { color: #f0db4f !important; } 
     .bootstrap-icon { color: #563d7c !important; } 
     .nodejs-icon { color: #68a063 !important; } 
     .firebase-icon { color: #ffcb2b !important; } 
     .figma-icon { color: #0ac9f5 !important; } 
     .flutter-icon { color: #02569b !important; } 
     .github-icon { color: #211F1F !important; } 
-    .flutter-icon { color: #02569b !important; } /* Couleur pour Flutter */
-    .flutter-bird { font-family: 'Font Awesome 5 Brands' !important; content: "\f7b9" !important; } /* Icône d'oiseau pour Flutter */
+    .flutter-icon { color: #02569b !important; } 
+    .flutter-bird { font-family: 'Font Awesome 5 Brands' !important; content: "\f7b9" !important; }
     
       .skill h3 {
         font-size: 1.5em;
@@ -183,7 +183,7 @@ nav ul li:hover {
       .technology i {
         font-size: 40px;
         margin-bottom: 10px;
-        color: #007bff; /* Couleur de l'icône */
+        color: #007bff; 
       }
     
       .technology p {
@@ -203,18 +203,18 @@ nav ul li:hover {
       }
 
       .technology.active {
-        opacity: 1; /* Lorsqu'une carte est active, elle devient opaque */
-        transform: translateY(0); /* Lorsqu'une carte est active, elle revient à sa position normale */
+        opacity: 1; 
+        transform: translateY(0);
       }
     
       .technology:hover {
-        transform: scale(1.05); /* Agrandissement au survol */
+        transform: scale(1.05); 
       }
     
       .technology i {
         font-size: 50px;
         margin-bottom: 10px;
-        color: #007bff; /* Couleur de l'icône */
+        color: #007bff;
       }
     
       .technology p {
@@ -222,8 +222,8 @@ nav ul li:hover {
       }
 
       #portfolio {
-        background-color: #f8f9fa; /* Couleur de fond */
-        padding: 80px 0; /* Espacement intérieur */
+        background-color: #f8f9fa;
+        padding: 80px 0; 
       }
 
       #portfolio h2 {
@@ -235,9 +235,9 @@ nav ul li:hover {
       .portfolio-item {
         text-align: center;
         margin-bottom: 30px;
-        padding: 20px; /* Ajout de rembourrage pour l'espace interne de la carte */
-        border-radius: 10px; /* Coins arrondis pour la carte */
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Ombre pour donner l'impression de relief */
+        padding: 20px; 
+        border-radius: 10px; 
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 
       }
     
       .portfolio-img {
@@ -252,7 +252,7 @@ nav ul li:hover {
       }
 
       .portfolio-item:hover .portfolio-img {
-        transform: scale(1.1); /* Échelle augmentée au survol */
+        transform: scale(1.1); 
       }
     
       .portfolio-item h3 {
@@ -269,12 +269,12 @@ nav ul li:hover {
       }
 
       .portfolio-item:hover {
-        background-color: #fff; /* Fond blanc au survol */
+        background-color: #fff; 
       }
 
 
   .technologies-used {
-    color: #6c757d; /* Couleur du texte des technologies utilisées */
+    color: #6c757d; 
     font-size: 0.8em;
     margin-top: 8px;
   }
